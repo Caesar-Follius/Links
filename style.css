@@ -4,9 +4,13 @@ body {
 }
 #container {
   width: 360px;
-  height: 712px;
   margin: 0 auto;
   border: 1px solid red;
+}
+
+body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff
 }
 
 #profile {
@@ -14,6 +18,12 @@ body {
 }
 
 #profile img {
-  height: 112px;
+  /*elemento in line nao usa margin kkkkk o pai dele tem ser alinhado jkjkjk*/
+  /*nao precisa de altura kjkj*/
   width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
 }
