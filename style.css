@@ -3,10 +3,17 @@ body {
   background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 #container {
+  width: 360px;
+  height: 712px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
 
-border: 1px solid red;
-width: 360px;
-height: 712px;
-margin: 0 auto;
+#profile {
+  text-align: center;
+}
 
+#profile img {
+  height: 112px;
+  width: 112px;
 }
